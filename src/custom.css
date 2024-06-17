@@ -1,0 +1,47 @@
+/* CSS for left navigation bar */
+.left-nav {
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding-top:70px;
+}
+
+/* CSS for top navigation bar */
+.top-nav {
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 200px;
+    padding-left: 1150px;
+}
+
+/* CSS for main content area */
+.content {
+    margin-left: 220px; /* Adjust according to left nav width */
+    margin-top: 70px; /* Adjust according to top nav height */
+    padding: 20px;
+}
+
+.top-bar-buttons {
+    background-color: #fff;
+    color: aqua;
+}
+
+.selected-top-bar-button {
+    background-color: aqua;
+}
+
+.container {
+    display: flex;
+}
+.container > div {
+    margin-right: 200px; /* Optional: Add some spacing between the divs */
+}
